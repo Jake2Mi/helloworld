@@ -42,6 +42,10 @@ import javax.servlet.http.HttpServletResponse;
 @SuppressWarnings("serial")
 @WebServlet("/HelloWorld")
 public class HelloWorldServlet extends HttpServlet {
+    
+     public static void test() {
+        System.out.println("test");
+    }
 
     static String PAGE_HEADER = "<html><head><title>helloworld</title></head><body>";
 
