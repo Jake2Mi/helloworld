@@ -6,6 +6,6 @@ public class UnitTest {
    
    @Test
    public void test(){
-     HelloWorldServlet.test();
+     Project.test();
    }
 }
